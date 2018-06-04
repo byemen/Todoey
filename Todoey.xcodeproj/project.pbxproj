@@ -13,6 +13,7 @@
 		4E33A1A520BF1EB1003FCAE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E33A1A320BF1EB1003FCAE9 /* Main.storyboard */; };
 		4E33A1A720BF1EB2003FCAE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E33A1A620BF1EB2003FCAE9 /* Assets.xcassets */; };
 		4E33A1AA20BF1EB2003FCAE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E33A1A820BF1EB2003FCAE9 /* LaunchScreen.storyboard */; };
+		4E52015820C25F6200DAC504 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E52015720C25F6200DAC504 /* CategoryTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4E33A1A620BF1EB2003FCAE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E33A1A920BF1EB2003FCAE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E33A1AB20BF1EB2003FCAE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E52015720C25F6200DAC504 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 		4E2C6CFC20BFFA2200D88765 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4E52015720C25F6200DAC504 /* CategoryTableViewController.swift */,
 				4E33A1A120BF1EB1003FCAE9 /* TodoListViewController.swift */,
 			);
 			path = Controllers;
@@ -173,6 +176,7 @@
 				4E33A1A220BF1EB1003FCAE9 /* TodoListViewController.swift in Sources */,
 				4E2C6D0120C0222300D88765 /* DataModel.xcdatamodeld in Sources */,
 				4E33A1A020BF1EB1003FCAE9 /* AppDelegate.swift in Sources */,
+				4E52015820C25F6200DAC504 /* CategoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
